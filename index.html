@@ -100,7 +100,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/07/pytest-lesson01/" data-id="ck2oul1cc0002a4wg937u7fzs" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/11/07/pytest-lesson01/" data-id="ck2oupjc70001igwg0wjreiwr" class="article-share-link">Share</a>
       
       
     </footer>
@@ -135,12 +135,12 @@
         <h1 id="尝试下hexo和github搭建blog"><a href="#尝试下hexo和github搭建blog" class="headerlink" title="尝试下hexo和github搭建blog"></a>尝试下hexo和github搭建blog</h1><p><strong>2019年11月6日晚22点35分</strong></p>
 <h2 id="github"><a href="#github" class="headerlink" title="github"></a>github</h2><p>创建一个新的仓库就比较简单了，名称xxx.github.io，xxx即是你的github用户名<br>public就行，readme选上吧<br>项目的setting最下面github page随便选个主题吧<br>选完<a href="https://xxx.github.io/就是你的个人站点了，只是现在的页面只是一个简单的模板而已" target="_blank" rel="noopener">https://xxx.github.io/就是你的个人站点了，只是现在的页面只是一个简单的模板而已</a></p>
 <h2 id="git"><a href="#git" class="headerlink" title="git"></a>git</h2><p>本地git和github的绑定就不多说了<br>cd ~ 到家目录，如有.ssh文件则忽略下面几步，但是要email和github账号的邮箱一致<br>git config –global user.name “name”<br>git config –global user.email “email”<br>ssh-keygen -t rsa -C “email”<br>到家目录cat ~/.ssh/id_rsa.pub，打开github，在头像下面点击settings，再点击SSH and GPG keys，新建一个SSH，名字随便，将cat输出的内容复制到框中，点击确定保存。<br>输入ssh -T git@github，是不是成功你们试试就知道了喽</p>
-<h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><p>下载node<br>node -v确认<br>下载hexo：npm i hexo-cli -g<br>hexo -v确认<br>创建个博客文件夹，例如blog<br>初始化文件夹：hexo init<br>安装组件：hexo insatll<br>生成静态页面：hexo g<br>启动本地服务预览：hexo s<br>hexo server作用是在修改文章的时候无需重启本地本地服务，会自动更新<br>blog根目录_config.yml配置修改：<br>deploy:<br>  type: git<br>  repository: <a href="https://github.com/xxx/xxx.github.io" target="_blank" rel="noopener">https://github.com/xxx/xxx.github.io</a><br>  branch: master<br>需要部署之前，停止本地服务ctrl+c<br>hexo clean把缓存清楚<br>hexo g重新生成最新的页面<br>hexo d推到github<br>打开xxx.github.io即可浏览</p>
+<h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><p>下载node<br>node -v确认<br>下载hexo：npm i hexo-cli -g<br>hexo -v确认<br>创建个博客文件夹，例如blog<br>初始化文件夹：hexo init<br>安装组件：hexo insatll<br>生成静态页面：hexo g<br>启动本地服务预览：hexo s<br>hexo server作用是在修改文章的时候无需重启本地本地服务，会自动更新<br>blog根目录_config.yml配置修改：<br>deploy:<br>  type: git<br>  repository: <a href="https://github.com/xxx/xxx.github.io" target="_blank" rel="noopener">https://github.com/xxx/xxx.github.io</a><br>  branch: master<br>需要部署之前，停止本地服务ctrl+c，安装部署依赖npm i hexo-deployer-git<br>hexo clean把缓存清楚<br>hexo g重新生成最新的页面<br>hexo d推到github<br>打开xxx.github.io即可浏览</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/06/first-article/" data-id="ck2oul1bt0000a4wg4ap5epja" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/11/06/first-article/" data-id="ck2oupjc90002igwg3jikfxs7" class="article-share-link">Share</a>
       
       
     </footer>
@@ -189,7 +189,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/06/hello-world/" data-id="ck2oul1c10001a4wgapfjc64a" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/11/06/hello-world/" data-id="ck2oupjc00000igwgaux45zqy" class="article-share-link">Share</a>
       
       
     </footer>
