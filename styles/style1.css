@@ -1,0 +1,56 @@
+/* 元素选择 */
+p,h1 {
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+  }  
+
+/* id选择 */
+#test {
+    color: green;
+
+}
+
+/* 类选择 */
+.test {
+    color:blue;
+
+}
+
+/* 属性选择 */
+[src] {
+    color: orange;
+}
+
+a:hover{
+    color: orchid;
+}
+
+
+html {
+    /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+    font-size: 10px; 
+    /* Google fonts 输出的 CSS */
+    font-family: 'Open Sans', sans-serif; 
+    background-color: #00539F;
+
+  }
+img {
+    display: block;
+    margin: 0 auto;
+  }
+h1 {
+    margin: 0;
+    padding: 20px 0;    
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+    font-size: 60px;
+    text-align: center;
+  }
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
